@@ -35,9 +35,10 @@ model_file_name = best_run.get_file_names()[0]
 best_run.download_file(name=model_file_name)
 
 #Cargamos el modelo en python
-from sklearn.externals import joblib
+import joblib
 clf = joblib.load(model_file_name)
 
+print("El proceso ha finalizado correctamente!!")
 #Uso del clasificador para nuevos datos (referencia)
 #y_predecido = clf.predict(X) 
 #Comparar x con y y calcular rmse
