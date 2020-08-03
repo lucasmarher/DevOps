@@ -1,5 +1,0 @@
-{
-    "subscription_id": "{{cookiecutter.92ba1152-3fff-41db-864f-d94ce03eb9e1}}",
-    "resource_group": "{{cookiecutter.data_squad_analytics_ops}}",
-    "workspace_name": "{{cookiecutter.Workspace-118bffbb-b2a5-4eba-84aa-0a34faed300e-deployment}}"
-}
